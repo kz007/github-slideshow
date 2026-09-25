@@ -1,6 +1,10 @@
 {
   "name": "github-slideshow (Jekyll)",
-  "install": "./.cursor/install.sh",
+  "user": "ubuntu",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "install": "bundle config set --local path 'vendor/bundle' && bundle install",
   "terminals": [
     {
       "name": "jekyll-serve",
