@@ -1,6 +1,6 @@
 {
   "name": "github-slideshow (Jekyll)",
-  "install": "bundle config set --local path 'vendor/bundle' && bundle install",
+  "install": "./.cursor/install.sh",
   "terminals": [
     {
       "name": "jekyll-serve",
